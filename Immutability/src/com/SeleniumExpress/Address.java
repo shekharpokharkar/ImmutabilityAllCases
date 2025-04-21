@@ -45,7 +45,7 @@ public class Address {
 	}
 
 	public Address getInstance() {
-		return new Address(lane1,lane2,city,country);
+		return new Address(lane1, lane2, city, country);
 
 	}
 
@@ -59,6 +59,7 @@ public class Address {
 
 	@Override
 	public String toString() {
+		System.out.println("===========================");
 		return "Address [lane1=" + lane1 + ", lane2=" + lane2 + ", city=" + city + ", country=" + country + "]";
 	}
 
